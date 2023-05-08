@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "TTLakes";
+    src: url(Font/TTLakes/TTLakes-Medium.woff) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    font-family: 'TTLakes';
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'TTLakes';
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    color: #1B1C21;
+    background-color: #F8F8F8;
+}
+/*
+.sideMenu_header_navigation{
+    display: flex;
+    align-items: center;
+    padding: 18.59px 16px 15.09px 0px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.button-logo{
+    position: relative;
+    background-color: #FFFFFF00;
+    border: none;
+    text-decoration: none;
+}
+.button-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF00;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+}
+*/
+.sideMenu_link {
+        font-size: 16px;
+        color: #1B1C21;
+        outline: none;
+        text-decoration: none;
+}
+.sideMenu_button {
+    background-color: #FFFFFF00;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+}
+.sideMenu{
+    height: 100%;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 0px 24px 32px 24px;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+.navagation_Top{
+    display: flex;
+    flex: content;
+    flex-direction: column;
+}
+.sideMenu_header{
+}
+.sideMenu_header_navigation{
+    display: flex;
+    align-items: center;
+    padding: 18.59px 0px 0px 0px;
+    margin-bottom: 57px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+.sideMenu_header_navigation .button-logo{
+    position: relative;
+    right: 24px;
+    background-color: #FFFFFF00;
+    border: none;
+    text-decoration: none;
+}
+.sideMenu_header_navigation .button-icon ,.link-material .button-icon{
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF00;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+}
+.link-material .button-icon{
+    margin-right: 16px;
+}
+.sideMenu_list{
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    align-items: center;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+.sideMenu_list .sideMenu_list_item {
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.link-material_nav{
+    margin-bottom: 16px;
+}
+.contacts p{
+    margin-bottom: 12px;
+}
+.copy_mail{
+    color: #1B1C21;
+}
+.copy_number{
+    font-weight:900;
+    font-family: 'TT Lakes';
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.6px;
+}
+.contacts p:last-of-type{
+    margin-bottom: 40px;
+}
+  .sideMenu_list .sideMenu_list_item:first-child:after{
+    left: 0px;
+    transform: translate(0px, -10px);
+    position: absolute;
+    content :  url("data:image/svg+xml;charset=UTF-8,%3csvg width='4' height='40' viewBox='0 0 4 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z' fill='%2341F6D7'/%3e%3c/svg%3e ");
+}
+  .sideMenu_list .sideMenu_list_item:first-child:after{
+    left: 0px;
+    transform: translate(0px, -10px);
+    position: absolute;
+    content :  url("data:image/svg+xml;charset=UTF-8,%3csvg width='4' height='40' viewBox='0 0 4 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z' fill='%2341F6D7'/%3e%3c/svg%3e ");
+}
+.sideMenu_list .sideMenu_list_item:first-child .sideMenu_link ,  .lang .lang_item:first-child{
+        color: #7E7E82;
+ }
+ .sideMenu_list .sideMenu_list_item .sideMenu_button:hover , .lang .lang_item:hover{
+    filter: drop-shadow(3px 3px 7px #FF3E79) invert(0%);;
+    position: relative;
+    font-weight:lighter;
+ }
